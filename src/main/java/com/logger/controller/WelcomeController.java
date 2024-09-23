@@ -26,8 +26,10 @@ public class WelcomeController {
 		return "Welcome to Bikkad IT ";
 
 	}
-	@GetMapping("/welcome")
-	public String getAllLocationa() {
+
+		@GetMapping("/welcome")
+	public String qa() {
+
 
 		String sMsg="Start point of getAllLocation()";
 		System.out.println(LocalDate.now()+""+sMsg);
@@ -39,5 +41,6 @@ public class WelcomeController {
 		return "Welcome to Bikkad IT ";
 
 	}
+
 
 }
