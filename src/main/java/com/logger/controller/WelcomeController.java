@@ -27,4 +27,20 @@ public class WelcomeController {
 
 	}
 
+		@GetMapping("/welcome")
+	public String qa() {
+
+
+		String sMsg="Start point of getAllLocation()";
+		System.out.println(LocalDate.now()+""+sMsg);
+		logger.info(sMsg);
+		
+		String eMsg="Exit point of getAllLocation()";
+		System.out.println(LocalDate.now()+""+eMsg);
+		logger.info(eMsg);
+		return "Welcome to Bikkad IT ";
+
+	}
+
+
 }
